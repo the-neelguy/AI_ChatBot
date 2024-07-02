@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "How are you?", "Good morning", "Hey", "Hola", "Hi there", "Hello there"],
+        "responses": ["Hello!", "Hi there!", "Hey!"]
+      },
+      {
+        "tag": "1st Interaction",
+        "patterns": ["Help?", "Can u help me?", "I need help", "Help Please", "Need to ask you a question"],
+        "responses": ["Hey, How can I help you?", "Let me know how I can help you", "How can I assist you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye!", "See you later, alligator!", "Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You're welcome!", "No problem", "Happy to help!", "Anytime!"]
+      }
+    ]
+  }
+  
